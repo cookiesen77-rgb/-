@@ -35,7 +35,9 @@ cors:
 
 large:
   model:
-    qwen-api-key:  #通义千问api-key
+    api-key: 123456  # OpenAI兼容API Key
+    base-url: http://127.0.0.1:3001/openai-qwen-oauth  # OpenAI兼容API Base URL
+    model: qwen3-coder-plus  # 模型名称（可选，默认为qwen3-coder-plus）
 
 tiku:
   settings:

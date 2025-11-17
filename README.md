@@ -15,6 +15,7 @@
 ## 📚 文档入口
 - [<span style="font-size: 1.5em">📖 使用文档</span>](https://doc.xxtmooc.com)
 - [🤖 QWen API 调用规则](QWEN_API_RULES.md)
+- [🔄 API 迁移指南](MIGRATION_GUIDE.md)
 
 ## 🎯 功能特性（Features）
 
@@ -71,6 +72,8 @@ tiku:
 
 large:
   model:
-    qwen-api-key: your-api-key-here  #通义千问API Key，用于AI答题（当题库无结果时使用）
+    api-key: 123456  # OpenAI兼容API Key
+    base-url: http://127.0.0.1:3001/openai-qwen-oauth  # OpenAI兼容API Base URL
+    model: qwen3-coder-plus  # 模型名称（可选，默认为qwen3-coder-plus）
 
 ````

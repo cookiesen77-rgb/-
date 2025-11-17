@@ -17,9 +17,18 @@ import org.springframework.context.annotation.Configuration;
 public class LargeModelProperties {
 
     /**
-     * QWen Api Key
-     * TODO 将引入OpenAI等
+     * OpenAI兼容的API Key
      */
-    private String QWenApiKey;
+    private String apiKey;
+
+    /**
+     * OpenAI兼容的API Base URL
+     */
+    private String baseUrl;
+
+    /**
+     * 模型名称
+     */
+    private String model = "qwen3-coder-plus";
 }
 
