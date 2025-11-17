@@ -14,6 +14,7 @@
 > ✨ “本项目是基于Springboot+RabbitMQ+docker+Dubbo的超星学习通自动刷课平台”
 ## 📚 文档入口
 - [<span style="font-size: 1.5em">📖 使用文档</span>](https://doc.xxtmooc.com)
+- [🤖 QWen API 调用规则](QWEN_API_RULES.md)
 
 ## 🎯 功能特性（Features）
 
@@ -67,5 +68,9 @@ tiku:
           token: xQtsFM16W6KpXCBt
         - name: "wanneng"
           token:
+
+large:
+  model:
+    qwen-api-key: your-api-key-here  #通义千问API Key，用于AI答题（当题库无结果时使用）
 
 ````
